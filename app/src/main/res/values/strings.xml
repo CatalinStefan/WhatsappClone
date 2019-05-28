@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WhatappClone</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_profile">Profile</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_message">Message</string>
+
+    <string name="button_login">Login</string>
+    <string name="button_signup">Signup</string>
+    <string name="button_apply">Apply</string>
+    <string name="button_delete">Delete account</string>
+
+    <string name="text_signup"><u>No account? Go to Signup</u></string>
+    <string name="text_login"><u>Already have an account? Go to login.</u></string>
+
+    <string name="hello_status_update_fragment">Hello status update fragment</string>
+    <string name="hello_chats_fragment">Hello chats fragment</string>
+    <string name="hello_status_fragment">Hello status fragment</string>
+    <string name="send_button_text">Send</string>
+    <string name="button_update_status">Update status</string>
+    <string name="hint_status">Status</string>
+</resources>

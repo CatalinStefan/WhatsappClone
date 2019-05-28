@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.devtides.whatappclone">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+            android:name="android.support.multidex.MultiDexApplication"
+            android:allowBackup="true"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".activities.StatusActivity">
+        </activity>
+        <activity android:name=".activities.ConversationActivity">
+        </activity>
+        <activity android:name=".activities.ContactsActivity">
+        </activity>
+        <activity
+                android:name=".activities.ProfileActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity
+                android:name=".activities.MainActivity"
+                android:label="@string/title_activity_main"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".activities.SignupActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity
+                android:name=".activities.LoginActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
